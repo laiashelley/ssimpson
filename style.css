@@ -49,7 +49,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url(/img/fondo-pagina1.jpg);
+    background-image: url(./img/fondo-pagina1.jpg);
     background-size: cover;
     border-radius: 50px;
     animation: opacidadPag1 1s ease-in;
@@ -87,7 +87,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/img/fondo-pagina2.jpg);
+    background-image: url(./img/fondo-pagina2.jpg);
     background-size: cover;
     border-radius: 50px;
     animation: opacidadPag2 1s ease-in;
@@ -125,7 +125,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/img/fondo-pagina3.jpg);
+    background-image: url(./img/fondo-pagina3.jpg);
     border-radius: 50px;
     animation: opacidadPag3 1s ease-in;
   }
@@ -163,7 +163,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/img/fondo-pagina4.jpg);
+    background-image: url(./img/fondo-pagina4.jpg);
     border-radius: 50px;
     animation: opacidadPag4 1s ease-in;
   }
@@ -184,7 +184,7 @@ body {
     display: flex;
     align-items: flex-end;
     border-radius: 50px;
-    background-image: url(/img/background-play.png);
+    background-image: url(./img/background-play.png);
     background-position: top;
     animation: moveBackground 50s linear infinite;
     background-repeat: repeat;
@@ -334,7 +334,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/img/final.jpg);
+    background-image: url(./img/final.jpg);
     background-size: contain;
     background-position: center;
     border-radius: 50px;
@@ -374,7 +374,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/img/game-over.jpg);
+    background-image: url(./img/game-over.jpg);
     background-size: contain;
     background-position: center;
     border-radius: 50px;
