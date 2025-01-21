@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon-16x16.png">
+    <title>Homer Simpson's Donut</title>
+  </head>
+  <body>
+
+    <div class="pagina1">
+      <div class="div-texto-1">
+        <p>
+        In the quiet town of Springfield, where everyday adventures mix with the absurd, an ordinary day is shaken by an unusual event that sparks the curiosity of Homer Simpson and his unique family.
+        </p>
+      </div>
+      <input type="button" id="next1" value="NEXT" style="outline: none" />
+    </div>
+
+    <div class="pagina2 oculto">
+      <div class="div-texto-2">
+        <p>
+          That day, a loud bang shook Springfield, leading Homer and Barney to
+          discover a giant pink donut that defied logic. Without hesitation,
+          Homer ran towards it, eager to sink his teeth into it.
+        </p>
+      </div>
+      <input type="button" id="next2" value="NEXT" />
+    </div>
+
+    <div class="pagina3 oculto">
+        <div class="div-texto-3">
+          <p>
+            Before they could react, the donut slipped from Homer's hands and took off on a wild ride through the city streets, leaving a trail of icing and chaos behind as Homer chased after it, his mouth watering.
+          </p>
+        </div>
+        <input type="button" id="next3" value="NEXT" />
+    </div>   
+
+    <div class="pagina4 oculto">
+        <div class="div-texto-4">
+            <h1 id="titulo">Homer Simpson's donut</h1>
+            <input type="button" id="startPlay" value="START" />
+            <p id="empezar">Press the button to start</p>
+            <p id="explicacion">When you enter the game, press ENTER to start and press SPACE to catch the donut. When you reach 10 points, the game will be over.</p>
+        </div>
+    </div>   
+
+    <div class="pagina5 oculto" id="animacionPag5">
+      <div id="contadorGOOD">Points to win: 0</div>
+      <div id="contadorBAD">Points to fail: 0</div>  
+      <img src="/img/simpson.gif" alt="homer" id="homer" />
+      <img src="/img/donut.png" alt="donut" id="donuts">
+    </div>
+
+    <div class="pagina6 oculto">
+      <div class="div-texto-6">
+          <h1 id="titulo-final">Congratulations! You've caught the donut!</h1>
+          <input type="button" id="reinicioPag6" value="GO BACK" />
+      </div>
+    </div>
+    
+    <div class="pagina7 oculto">
+      <div class="div-texto-7">
+          <h1 id="titulo-game-over">GAME OVER!</h1>
+          <input type="button" id="reinicioPag7" value="GO BACK" />
+      </div>
+    </div>   
+
+    <script src="main.js"></script>
+  </body>
+</html>
